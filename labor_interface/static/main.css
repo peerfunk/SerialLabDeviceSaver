@@ -1,0 +1,65 @@
+body {
+    background-color: #10affa;
+}
+
+h1 {
+    color: #555;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+}
+.viewport{
+	background-color:white;
+	display:none;
+	margin:20px;
+}
+.searchbox{
+	background-color:white;
+	display:none;
+	margin:auto;
+	height:75%;
+	width:75%;
+	position:fixed;
+	z-index:10000;
+}
+.windowTop{
+	height:50px;
+	background-color:black;
+	color:white;
+	text-align:right;
+	font-size:30px;
+}
+.windowContent{
+	
+}
+.container{
+	height:100%;
+	width:100%;
+}
+.fa-window-close{
+	color:red;
+	margin-right:10px;
+}
+textarea {
+   resize: none;
+}
+
+
+.fixed-left {
+position: fixed;
+  width: 25%;
+  left: 0;
+  background: white;
+  
+}
+
+.content {
+   background-color:white;
+    width: 75%;
+	margin-left:25%;
+	border-left:2px solid gray;
+}
+.content table{
+	/*margin-left:20px;*/
+}
+
